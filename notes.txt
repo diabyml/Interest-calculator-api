@@ -1,0 +1,31 @@
+
+
+(USER)
+=========================
+    --> Login  ---> Create new User
+    --> Register  --> connect existing user
+
+    List all (Doctors):
+        When doctor clicked:
+            Show doctors (clients)
+
+
+Hospital:                   Doctor              Client              Bulletin
+    id                      id                  id                  price
+                            firstName           firstName           isAmo
+                            lastName            lastName
+    username                phone               phone
+    passwordHash            provenance          bulletion
+
+
+(Hospital) is a user of our app
+    It has a list of doctors
+        (DOCTOR): has a list of clients
+            and a (CLIENT): has a bulletin
+
+
+MONGODB Models
+
+TODO: start working creating hospital(login,register)
+
+
